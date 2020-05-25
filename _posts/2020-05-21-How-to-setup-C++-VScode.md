@@ -1,12 +1,12 @@
 ---
-title: How set up VScode for C++ 
+title: How set up VScode 
 author: Bhargav Lad
-date: 2020-05-21 20:57
+date: 2020-05-21 20:57:00 +080
 category:[Blogging, Tutorial] 
 tags: [c++,vscode c++,code runnner]
 ---
 
-# How to setup VScode and Code Runner for C++ 17 (Mac/Windows)
+## A Guide on how to setup VScode and Code Runner for C++ 17 (Mac/Windows)
 
 ## Step1. Download VScode and exteentions.
 
