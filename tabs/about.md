@@ -8,4 +8,6 @@ title: About
 # MIT License
 ---
 
-> **Note**: Add Markdown syntax content to file `tabs/about.md` and it will show up on this page.
+Hi, I'm currently a graduate student at Lakehead University, Thunder Bay. My coursework is mostly realted to Machine Learning and Deep Learning. . However, I'm always curious! I love to learn in general especially a new stack/technology. My focus right now is to learn the most I can in terms of different technologies and specialize later!
+
+Feel free to message me about anything related to tech, I'm always open to a conversation! 
