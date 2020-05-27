@@ -8,9 +8,9 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: DS->Monk                          # the main title
+title: Bhargav Lad                          # the main title
 
-tagline: A text-focused Jekyll theme.  # it will display as the sub-title
+tagline: CS Graduate Student.  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
@@ -28,7 +28,7 @@ github:
   username: isbhargav             # change to your github username
 
 twitter:
-  username: isbhargav            # change to your twitter username
+  username: bhargavlad            # change to your twitter username
 
 social:
   name: Bhargav Lad                  # it will shows as the copyright owner in Footer
