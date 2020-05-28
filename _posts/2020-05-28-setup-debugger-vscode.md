@@ -1,5 +1,5 @@
 ---
-title: Text and Typography
+title: Vscode Debug config C++ with input
 author: Cotes Chung
 date: 2020-05-28 11:33:00 +0800
 categories: [Blogging, Tutorial]
