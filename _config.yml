@@ -53,7 +53,7 @@ timezone: America/Toronto
 
 google_analytics:
   # Fill with your Google Analytics ID
-  id: ''
+  id: '168132228'
   # The Google Analytics pageviews switch.
 
   pv:
