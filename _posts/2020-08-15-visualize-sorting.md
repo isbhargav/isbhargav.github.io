@@ -10,7 +10,7 @@ tags: [react,merge-sort,bubble-sort,requestAnimationframe,Hooks]
 
 We all have implemented some sorting algorithm in school or maybe at work. We all have also learned the differences between these algorithms in terms of their time complexity, but most of us have never visualized the working of these algorithms. In this post will try to visualize the working to two sorting algorithms using react.
 
-# Lets get coding
+## Lets get coding
 
 First we will implement the 2 algorithms. We will use in place sorting.
 
