@@ -115,7 +115,7 @@ export default function App() {
             <div
               className="num"
               style={{
-                height: '${n * 10}px',
+                height: '$n * 10px',
                 backgroundColor: compIdx.includes(i) ? "red" : "blue"
               }}
               key={i}
@@ -395,7 +395,7 @@ export default function App() {
             <div
               className="num"
               style={{
-                height: '${n * 10}px',
+                height: '$n * 10px',
                 backgroundColor: compIdx.includes(i) ? "red" : "blue"
               }}
               key={i}
