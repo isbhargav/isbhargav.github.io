@@ -17,7 +17,7 @@ First we will implement the 2 algorithms. We will use in place sorting.
 1. Bubble sort O(n^2)
 2. Merge sort O(log n)
 
-```js
+```javascript
 
 // Inplace buble sort
  function bublesort(arr) {
@@ -95,7 +95,7 @@ First we will implement the 2 algorithms. We will use in place sorting.
 
 Next we will setup out react app with states and ref.
 
-```js
+```javascript
 export default function App() {
 
   // to store our array
@@ -136,7 +136,7 @@ export default function App() {
 
 ```
 When our component mounts we want to initialize it with random array. To accompolish this task we will introduce useEffect hook.
-```js
+```javascript
 
 useEffect(() => {
     setRandArr(
@@ -149,7 +149,7 @@ Next the animate the comparisons we will use requestAnimationFrame api. we will 
 
 Below are the following code snippets
 
-```js
+```javascript
 
 //wait function
 function wait(ms) {
@@ -171,7 +171,7 @@ Using above two snippets we implement out merge sort and bubble sort. We need to
 
 
 
-```js
+```javascript
  async function bublesort(arr) {
     setsortButton(true);
     for (let i = 1; i < arr.length; i++) {
@@ -260,7 +260,7 @@ Using above two snippets we implement out merge sort and bubble sort. We need to
 
 Finally we need to clear the animation frame on component unmount. Again we will need useEffect hook
 
-```js
+```javascript
 
 useEffect(() => {
     return () => {
@@ -273,7 +273,7 @@ useEffect(() => {
 ## Final Code
 Here is our final code
 
-```js
+```javascript
 import React, { useEffect, useState, useRef } from "react";
 import "./styles.css";
 function getRandomInt(min, max) {
