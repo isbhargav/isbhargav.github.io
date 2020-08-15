@@ -115,7 +115,7 @@ export default function App() {
             <div
               className="num"
               style={{
-                height: `${n * 10}px`,
+                height: '${n * 10}px',
                 backgroundColor: compIdx.includes(i) ? "red" : "blue"
               }}
               key={i}
@@ -395,7 +395,7 @@ export default function App() {
             <div
               className="num"
               style={{
-                height: `${n * 10}px`,
+                height: '${n * 10}px',
                 backgroundColor: compIdx.includes(i) ? "red" : "blue"
               }}
               key={i}
@@ -420,4 +420,4 @@ export default function App() {
 
 ```
 link to sandbox: [Sandbox](https://codesandbox.io/s/youthful-ishizaka-75ze0?file=/src/App.js:0-3698)
-Thank you
+Thank you!
