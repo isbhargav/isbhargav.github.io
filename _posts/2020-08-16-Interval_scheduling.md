@@ -1,13 +1,15 @@
 ---
-title: Non-overlapping Intervals 
+title: Non-overlapping Intervals
 author: Bhargav lad
 date: 2020-08-16 12:04:12
 categories: [Programming-Problems, Leetcode]
-tags: [job-scheduling,greedy]
+tags: [job-scheduling, greedy]
 ---
 
 ## Non-overlapping Intervals
+
 [leetcode link](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge/551/week-3-august-15th-august-21st/3425/)
+
 <div class="question-detail">
 
 <div class="question-description__3U1T">
@@ -16,8 +18,6 @@ tags: [job-scheduling,greedy]
 
 Given a collection of intervals, find the minimum number of intervals
 you need to remove to make the rest of the intervals non-overlapping.
-
- 
 
 **Example 1:**
 
@@ -36,8 +36,6 @@ you need to remove to make the rest of the intervals non-overlapping.
     Input: [[1,2],[2,3]]
     Output: 0
     Explanation: You don't need to remove any of the intervals since they're already non-overlapping.
-
- 
 
 **Note:**
 
@@ -72,10 +70,10 @@ The heuristic behind the job scheduling problem is always pick the interval with
 int eraseOverlapIntervals(vector<vector<int>>& intervals) {
         int ans=0;
 
-sort(intervals.begin(),intervals.end(),[](const vector<int> &a, 
-              const vector<int> &b) 
-{ 
-    return ( a[1]< b[1] ); 
+sort(intervals.begin(),intervals.end(),[](const vector<int> &a,
+              const vector<int> &b)
+{
+    return ( a[1]< b[1] );
 } );
 
 int last_end = INT_MIN;
@@ -88,7 +86,7 @@ int last_end = INT_MIN;
         last_end=end;
   }
 
-        
+
         return ans;
     }
 };
