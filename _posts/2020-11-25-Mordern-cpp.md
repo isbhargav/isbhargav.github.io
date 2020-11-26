@@ -22,7 +22,7 @@ int i{29};
 float f{3.14};
 vector<int> v={1,2,3,4};
 set<int> mySet = {-10, 5, 1, 4, 5};
-unordered_map<string,int> dict={{"scotty",1,},{"bhargav":2}};
+unordered_map<string,int> dict={{"scotty",1},{"bhargav":2}};
 int intArray[] = {1,2,3,4,5};
 ```
 
