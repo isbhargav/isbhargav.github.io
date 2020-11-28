@@ -1,0 +1,6 @@
+Creating a new Post
+ - Write Markdown post according to "Writing a New Post" blog
+ - run init.sh to genrate new tags and categories
+
+ - run run.sh to check if site builds successfuly
+ - sh ./tools/run.sh -r (realtime preview)
