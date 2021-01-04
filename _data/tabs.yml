@@ -28,6 +28,10 @@
   icon: "fas fa-file"
   path: portfolio
 -
+  name: "Showcase"
+  icon: "fas fa-file"
+  path: showcase
+-
   name: "About"
   icon: "fas fa-info"
   path: tabs
