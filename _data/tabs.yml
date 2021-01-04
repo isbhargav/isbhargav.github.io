@@ -24,7 +24,7 @@
   url: archives
   icon: "fas fa-archive"
 -
-  name: "Portfolio"
+  name: "AI Portfolio"
   icon: "fas fa-file"
   path: portfolio
 -
