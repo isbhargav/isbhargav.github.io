@@ -24,6 +24,11 @@
   url: archives
   icon: "fas fa-archive"
 -
+  name: "Portfolio"
+  icon: "fas fa-file"
+  path: 
+  url: portfolio
+-
   name: "About"
   icon: "fas fa-info"
   path: tabs
