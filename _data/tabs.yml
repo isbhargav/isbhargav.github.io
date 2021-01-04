@@ -26,7 +26,6 @@
 -
   name: "Portfolio"
   icon: "fas fa-file"
-  path: /
   url: portfolio
 -
   name: "About"
